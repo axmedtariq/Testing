@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Run Testing.js
 
 on:
   push:
@@ -22,5 +22,5 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run tests
-      run: node contian/testing.js
+    - name: Run Testing.js
+      run: node test/Testing.js
